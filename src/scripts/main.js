@@ -14,13 +14,8 @@ const promise2 = new Promise((resolve, reject) => {
 });
 
 // Callbacks handling
-promise1
-  .then((successCallback) => successHandler(successCallback))
-  .catch((errorCallback) => errorHandler(errorCallback));
-
-promise2
-  .then((successCallback) => successHandler())
-  .catch((errorCallback) => errorHandler());
+promise1.then(() => successHandler()).catch(() => errorHandler());
+promise2.then(() => successHandler()).catch(() => errorHandler());
 
 function successHandler() {
   addHandlerMessage('Promise was resolved!');
