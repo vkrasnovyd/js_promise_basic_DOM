@@ -6,4 +6,4 @@ Create 2 promises `promise1` and `promise2`.
 - success handler should append a `<div class="message">` with the text `Promise was resolved!` to the body
 - error handler should append a `<div class="message error-message">` with the text `Promise was rejected!` to the body
 
-[DEMO LINK](https://<your_account>.github.io/js_promise_basic_DOM/)
+[DEMO LINK](https://vkrasnovyd.github.io/js_promise_basic_DOM/)
